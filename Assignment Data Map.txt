@@ -1,0 +1,20 @@
+                                       Assignment Data Map
+
+In this assignment in calgary_access_log file, https://mapup.ai/, https://tollguru.com/ .
+It is a unstructured data and the link is routing, trip cost optimization, toll intelligence and API-based solutions for maps, and transport tech and it is helps for calculate costs for our route, fuel, driver expenses, calculate cheapest, fastest route. 
+So I first  access the data and manipulate data for that i use pandas
+import pandas as pd
+import re
+from datetime import datetime
+import matplotlib.pyplot as plt
+import seaborn as sns
+-   pandas is used for data handling in tabular format (DataFrame).
+-   re is Python's regular expression module for pattern matching.
+-   datetime helps convert log timestamps into Python datetime objects.
+-   matplotlib.pyplot and seaborn are used for plotting charts.
+
+Access and Load the log file :-
+with open("calgary_access_log.txt") as file:
+    lines = file.readlines()
+-  Opens the file calgary_access_log.txt.
+-  file.readlines() stores all lines of the file into the lines list.

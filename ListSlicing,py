@@ -1,0 +1,10 @@
+# Access a range of elements
+numbers = [1, 2, 3, 4, 5]
+print(numbers[1:4])   # Output: [2, 3, 4]
+print(numbers[:3])    # Output: [1, 2, 3]
+print(numbers[2:])    # Output: [3, 4, 5]
+
+# Modify individual elements
+fruits = ["apple", "banana", "orange"]
+fruits[1] = "grape"
+print(fruits)         # Output: ['apple', 'grape', 'orange']
